@@ -1,0 +1,70 @@
+/* src/SignUp.css */
+
+/* Προσαρμοσμένο CSS για τη φόρμα signup */
+.signup-container {
+    background: linear-gradient(to bottom right, #a2c2e0, #70a9c1); /* Ήπιο γαλάζιο gradient */
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f5f5f5;
+    font-size: 16px;
+}
+
+    input:focus {
+        outline: none;
+        border-color: #70a9c1; /* Γαλάζιο border για focus */
+        background-color: #ffffff;
+    }
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #70a9c1; /* Γαλάζιο κουμπί */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #4f8d9e; /* Σκούρο γαλάζιο για το hover */
+    }
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    footer p {
+        color: white;
+        font-size: 14px;
+    }
